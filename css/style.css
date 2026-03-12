@@ -1,0 +1,78 @@
+/*ESTILIZAÇÃO PADRAO*/
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    color: white    ;
+}
+
+/*Estilização do HEADER da pagina*/
+header{
+    background-color: rgb(93, 93, 18);
+    padding-bottom: 10px;
+    padding-top: 5px;
+    
+    }
+.logo{
+    width: 15%;
+    margin-left: 20px;
+}
+.divHeader{
+    position: relative;
+}
+nav{
+    position: absolute;
+    top: 2%;
+    font-size: 22;
+    right: 2%;
+    }
+nav li{
+    display: inline;
+    font-family: fantasy;
+    margin-right: 20px;
+}
+.banner{
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+    object-position: top;
+}
+.sobre_nos{
+    width: 70%;
+    margin-left: 15%;
+}
+.img_sobre_nos{
+    width: 25%;
+    float: left;
+    margin-right: 10px;
+}
+.titulo_sobre_nos{
+    clear: left;
+    text-align: center;
+    font-size: 50px;
+}
+.nossos_servicos{
+    width: 70%;
+    margin-left: 15%;
+    text-align: left; 
+    position: absolute;
+}
+
+.nossos_servicos ul{
+    width:60%;
+}
+
+.titulonossosprodutos{
+    text-align: center;
+    font-size: 50px;   
+    /* clear: right; */
+}
+
+.img_nossos_produtos{
+    position: relative;
+    right: -60%;
+    top: -170px;
+}
+.teste{
+    font-size: 30;
+}
