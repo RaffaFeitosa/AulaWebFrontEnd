@@ -13,6 +13,7 @@ header{
     padding-top: 5px;
     
     }
+
 .logo{
     width: 15%;
     margin-left: 20px;
@@ -20,6 +21,8 @@ header{
 .divHeader{
     position: relative;
 }
+
+
 nav{
     position: absolute;
     top: 2%;
@@ -75,4 +78,35 @@ nav li{
 }
 .teste{
     font-size: 30;
+    /* list-style: none; */
+}
+.teste li:before{
+    /* content: ""; */
+}
+.video{
+    text-align: center;
+    position: relative;
+    top: 400px;
+}
+footer{
+    padding: 10px 10px 10px 0;
+    background: url("../img/COUNTER2.jpeg");
+    margin-top: 410px;
+    background-position: center;
+    background-color: rgba(0,0,0,0,7);
+    background-blend-mode: darken;
+}
+.logoFooter{
+    width: 15%;
+    margin-left: 80%;
+}
+footer p{
+    font-size: 20px;
+    text-align: right;
+    margin-right: 68px;
+    font-family: 'Times New Roman', Times, serif;}
+
+footer a{
+    color: white;
+    text-decoration: none;
 }
