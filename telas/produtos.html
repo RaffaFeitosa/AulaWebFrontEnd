@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <link href="../css/estilo.css" rel="stylesheet"/>
+        <link href="../css/estilo_produtos.css" rel="stylesheet"/>
+        <link href="img/teste1.png" rel="icon" type="image/x-con">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <title>WorldGames</title>
+        <script>
+            alert("Conheça nossos produtos!");
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="divHeader">
+                <img src="../img/logo.png" class="logo"/>
+                <!--Barra de navegação-->
+                <nav>
+                    <!--Lista de itens do menu-->
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li>Produtos</li>
+                        <li>Contato</li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!--Conteúdo da Página PRODUTOS-->
+        <main>
+            <ul class="produtos-titulo">
+                <li>Produtos</li>
+            </ul>
+            <!--Exibe a data-->
+            <p class="data">
+                <script type="text/JavaScript">
+                    dia = new Array("Domingo","Segunda-feira","Terça-Feira","Quarta-Feira","Quinta-Feira","Sexta-Feira","Sábado");
+
+                    mes = new Array("Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro")
+
+                    data = new Date
+                    document.write(dia[data.getDay()] + ", " +  data.getDate() + " de " + mes[data.getMonth()] + " de " + data.getFullYear());
+                </script>
+            </p>
+            <!--Exibição dos Produtos-->
+            <div class="container">
+                <div class="card">
+                    <img src="../img/produtos/produto01.jpeg" />
+                    <h2>PlayStation 5 - DIGITAL</h2>
+                    <p>Console, 1 Controle e um jogo</p>
+                    <p class="preco">R$ 2.990,00</p>
+                </div>
+                <div class="card">
+                    <img src="../img/produtos/produto02.jpeg" alt="Produto 2">
+                    <h2>Xbox Series S - DIGITAL</h2>
+                    <p>Console, 1 Controle e um jogo</p>
+                    <p class="preco">R$ 1.990,00</p>
+                </div>
+                <div class="card">
+                    <img src="../img/produtos/produto03.jpeg" alt="Produto 3">
+                    <h2>Nintendo Swich 2</h2>
+                    <p>Console, 2 Controles e um jogo</p>
+                    <p class="preco">R$ 2.090,00</p>
+                </div>
+                <div class="card">
+                    <img src="../img/produtos/produto04.jpeg" alt="Produto 1">
+                    <h2>GiftCard</h2>
+                    <p>PSN</p>
+                    <p class="preco">R$ 100,00</p>
+                </div>
+                <div class="card">
+                    <img src="../img/produtos/produto05.jpeg" alt="Produto 2">
+                    <h2>GiftCard</h2>
+                    <p>GAMEPASS</p>
+                    <p class="preco">R$ 100,00</p>
+                </div>
+                <div class="card">
+                    <img src="../img/produtos/produto06.jpeg" alt="Produto 3">
+                    <h2>GiftCard</h2>
+                    <p>NINTENDO ESHOP</p>
+                    <p class="preco">R$ 100,00</p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <img src="../img/logo.png" title="Sil Fazendo Arte" class="logo_footer"/>
+            <p>
+                Encomendas on-line: 
+               <a href="https://wa.me/5511999990000" target="_blank"><i class="fa fa-whatsapp"></i> (11) 99999-0000</a> | 
+               <a href="https://instagram.com/silfazendoarte_" target="_blank"><i class="fa fa-instagram"></i> @WorldGames</a>
+            </p>
+        </footer>
+    </body>
+</html>
