@@ -2,11 +2,20 @@
     <head>
         <link href="../css/estilo.css" rel="stylesheet"/>
         <link href="../css/estilo_produtos.css" rel="stylesheet"/>
-        <link href="img/teste1.png" rel="icon" type="image/x-con">
+        <link href="../img/teste1.png" rel="icon" type="image/x-con">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <title>WorldGames</title>
+         <script>
+            alert("Conheça nossos produtos!");
 
-    </head>
+            function abrirDetalhes(nome,imagem,descricao){
+               
+               url=`pop_produtos.html?nomeProduto=${encodeURIComponent(nome)}&imgProduto=${encodeURIComponent(imagem)}&descProduto=${encodeURIComponent(descricao)}`;
+
+               window.open(url, "_blank", "width=800,height=670") 
+            }
+        </script>
+    </head> 
     <body>
         <header>
             <div class="divHeader">
@@ -40,7 +49,12 @@
             </p>
             <!--Exibição dos Produtos-->
             <div class="container">
-                <div class="card">
+                <script>
+                    //Descrição do produto
+                    desc_produto="Console Sony Playstation 5 Digital\n\n"
+                    slider=['../img/produtos/p1.jpeg','../img/produtos/p2.jpeg','../img/produtos/p3.jpeg','../img/produtos/p4.jpeg','../img/produtos/p5.jpeg'];
+                </script>
+                <div class="card" onclick="abrirDetalhes('Pano de Prato', slider, desc_produto)">
                     <img src="../img/produtos/produto01.jpeg" />
                     <h2>PlayStation 5 - DIGITAL</h2>
                     <p>Console, 1 Controle e um jogo</p>
